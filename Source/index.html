@@ -96,6 +96,7 @@
         var asm = JSIL.GetAssembly("JunimoKart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", true);
         var game = new asm.JunimoKart.Game1(mode, level);
         game.Run();
+        window.junimoKartGame = game;
       };
     </script>
   </body>
