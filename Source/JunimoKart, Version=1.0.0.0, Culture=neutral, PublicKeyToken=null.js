@@ -2880,6 +2880,7 @@ JSIL.DeclareNamespace("StardewValley.Minigames");
   }; 
 
   function MineCart_AddTrack$01 (track_object) {
+    // console.log("Raghu", track_object);
     var arg_83_1 = null;
     var track = this.AddEntity$b1($T15())(track_object);
     var x = ((+(+track.position.X / +(this.tileSize))) | 0);
